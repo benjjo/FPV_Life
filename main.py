@@ -8,8 +8,13 @@ def fpv_life():
     This is probably the most useful thing on the internet and its here, free.
     You're welcome.
     """
-    spirit_names = ("Yoga", "Soulbringer", "DemiGod", "God", "Deity", "Enlightened", "Bohdi", "Gandhi", "Divine", "Metaphysical", "Sacred", "Holy", "Disembodied", "Ethereal", "Ghost", "Incorporeal", "Rainbow", "Pure", "Rarefied", "Superlative", "Jesus", "Allah", "Inshallah", "Om", "Shyamalan", "Incense")
-    drone_names = ("BarrelRoll", "YawSpin", "RubiksCube", "InvertedYawspin", "JuicyFlick", "Stall", "Throwback", "VannyRoll", "KnifeEdge", "PowerLoop", "Orbit", "Split-S", "Immelmann", "Mattyflip", "TrippySpin", "Dives", "WallRide", "BackwardDive", "WallBonk", "UAV", "Quad", "Kwad", "Hexicopter", "Octocopter", "RTF", "BNF", "Gimbal", "HeadlessMode", "Autonomous", "BVLOS", "LiPo", "Part107", "Payload")
+    spirit_names = ("Yoga", "Soulbringer", "DemiGod", "God", "Deity", "Enlightened", "Bohdi", "Gandhi", "Divine",
+                    "Metaphysical", "Sacred", "Holy", "Disembodied", "Ethereal", "Ghost", "Incorporeal", "Rainbow",
+                    "Pure", "Rarefied", "Superlative", "Jesus", "Allah", "Inshallah", "Om", "Shyamalan", "Incense")
+    drone_names = ("BarrelRoll", "YawSpin", "RubiksCube", "InvertedYawspin", "JuicyFlick", "Stall", "Throwback",
+                   "VannyRoll", "KnifeEdge", "PowerLoop", "Orbit", "Split-S", "Immelmann", "Mattyflip", "TrippySpin",
+                   "Dives", "WallRide", "BackwardDive", "WallBonk", "UAV", "Quad", "Kwad", "Hexicopter", "Octocopter",
+                   "RTF", "BNF", "Gimbal", "HeadlessMode", "Autonomous", "BVLOS", "LiPo", "Part107", "Payload")
     return drone_names[randrange(0, len(drone_names))] + spirit_names[randrange(0, len(spirit_names))] + 'FPV'
 
 
