@@ -8,17 +8,17 @@ def fpv_life():
     This is probably the most useful thing on the internet and its here, free.
     You're welcome.
     """
-    spirit_names = ["Spirit", "Enlightened", "InfiniteSpirit", "Ghost", "Disembodied", "Omnipotent", "Lord",
+    race_names = ["Spirit", "Enlightened", "InfiniteSpirit", "Ghost", "Disembodied", "Omnipotent", "Lord",
                     "KingOfKings", "Almighty", "God", "Soulbringer", "Inshallah", "Incorporeal", "Divinity", "Vampire",
                     "Maker", "DemiGod", "Shyamalan", "DivineBeing", "Sacred", "Creator", "Beast", "Jeebus", "Satan",
                     "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "Archfiend", "Brute", "Superlative",
                     "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
                     "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion"]
-    drone_names = ["BarrelRoll", "YawSpin", "RubiksCube", "InvertedYawspin", "JuicyFlick", "Stall", "Throwback",
+    drone_words = ["BarrelRoll", "YawSpin", "RubiksCube", "InvertedYawspin", "JuicyFlick", "Stall", "Throwback",
                    "VannyRoll", "KnifeEdge", "PowerLoop", "Orbit", "Split-S", "Immelmann", "Mattyflip", "TrippySpin",
                    "Dive", "WallRide", "BackwardDive", "WallBonk", "Quad", "Kwad", "Hexicopter", "Octocopter",
                    "Gimbal", "HeadlessMode", "BVLOS_", "LiPo", "Payload"]
-    return drone_names[randrange(0, len(drone_names))] + spirit_names[randrange(0, len(spirit_names))] + 'FPV'
+    return drone_words[randrange(0, len(drone_words))] + race_names[randrange(0, len(race_names))] + 'FPV'
 
 
 def main():
