@@ -11,9 +11,10 @@ def fpv_life():
     race_names = ["Spirit", "Enlightened", "InfiniteSpirit", "Ghost", "Disembodied", "Omnipotent", "Lord",
                     "KingOfKings", "Almighty", "God", "Soulbringer", "Inshallah", "Incorporeal", "Divinity", "Vampire",
                     "Maker", "DemiGod", "Shyamalan", "DivineBeing", "Sacred", "Creator", "Beast", "Jeebus", "Satan",
-                    "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "Archfiend", "Brute", "Superlative",
+                    "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "ArchNemesis", "Brute", "Superlative",
                     "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
-                    "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion"]
+                    "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
+                  "WarLord", "KingKong"]
     drone_words = ["BarrelRoll", "YawSpin", "RubiksCube", "InvertedYawspin", "JuicyFlick", "Stall", "Throwback",
                    "VannyRoll", "KnifeEdge", "PowerLoop", "Orbit", "Split-S", "Immelmann", "Mattyflip", "TrippySpin",
                    "Dive", "WallRide", "BackwardDive", "WallBonk", "Quad", "Kwad", "Hexicopter", "Octocopter",
@@ -25,8 +26,11 @@ def main():
     name = fpv_life()
     master = Tk()
     w = Text(master, height=1, borderwidth=15, width=len(name))
+    lab = Label(master)
     w.insert(1.0, name)
     w.pack()
+    lab.pack()
+    lab.config(text='FPV Race Handle')
     w.configure(state="disabled")
     mainloop()
 
