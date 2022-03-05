@@ -9,16 +9,17 @@ def fpv_life():
     You're welcome.
     """
     race_names = ["Spirit", "Enlightened", "InfiniteSpirit", "Ghost", "Disembodied", "Omnipotent", "Lord",
-                    "KingOfKings", "Almighty", "God", "Soulbringer", "Inshallah", "Incorporeal", "Divinity", "Vampire",
-                    "Maker", "DemiGod", "Shyamalan", "DivineBeing", "Sacred", "Creator", "Beast", "Jeebus", "Satan",
-                    "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "ArchNemesis", "Brute", "Superlative",
-                    "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
-                    "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
-                  "WarLord", "KingKong"]
-    drone_words = ["BarrelRoll", "YawSpin", "RubiksCube", "InvertedYawspin", "JuicyFlick", "Stall", "Throwback",
-                   "VannyRoll", "KnifeEdge", "PowerLoop", "Orbit", "Split-S", "Immelmann", "Mattyflip", "TrippySpin",
-                   "Dive", "WallRide", "BackwardDive", "WallBonk", "Quad", "Kwad", "Hexicopter", "Octocopter",
-                   "Gimbal", "HeadlessMode", "BVLOS_", "LiPo", "Payload"]
+                  "KingOfKings", "Almighty", "God", "Soulbringer", "Inshallah", "Incorporeal", "Divinity", "Vampire",
+                  "Maker", "DemiGod", "Shyamalan", "DivineBeing", "Sacred", "Creator", "Beast", "Jeebus", "Satan",
+                  "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "ArchNemesis", "Brute",
+                  "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
+                  "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
+                  "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Superlative"]
+    drone_words = ["BarrelRolling", "YawSpinning", "RubiksCubed", "InvertedYawSpinning", "JuicyFlicking", "Stalling",
+                   "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n",
+                   "Immelmanning", "MattyFliping", "TrippySpinning", "StructureDiving", "WallRiding", "BackwardDiving",
+                   "WallBonking", "GimbalMashing", "HeadlessModer", "LiPoSucking", "PayloadDropping", "Inverted"]
+
     return drone_words[randrange(0, len(drone_words))] + race_names[randrange(0, len(race_names))] + 'FPV'
 
 
