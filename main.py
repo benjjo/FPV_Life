@@ -31,7 +31,7 @@ def main():
     w.insert(1.0, name)
     w.pack()
     lab.pack()
-    lab.config(text='FPV Race Handle')
+    lab.config(text='FPV Pro-Race Handle')
     w.configure(state="disabled")
     mainloop()
 
