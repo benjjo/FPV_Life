@@ -8,17 +8,21 @@ def fpv_life():
     This is probably the most useful thing on the internet and its here, free.
     You're welcome.
     """
-    race_names = ["Spirit", "Enlightened", "InfiniteSpirit", "Ghost", "Disembodied", "Omnipotent", "Lord",
-                  "KingOfKings", "Almighty", "God", "Soulbringer", "Inshallah", "Incorporeal", "Divinity", "Vampire",
-                  "Maker", "DemiGod", "Shyamalan", "DivineBeing", "Sacred", "Creator", "Beast", "Jeebus", "Satan",
-                  "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "ArchNemesis", "Brute",
-                  "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
-                  "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
-                  "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Superlative"]
     drone_words = ["BarrelRolling", "YawSpinning", "RubiksCubed", "InvertedYawSpinning", "JuicyFlicking", "Stalling",
                    "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n",
-                   "Immelmanning", "MattyFliping", "TrippySpinning", "StructureDiving", "WallRiding", "BackwardDiving",
-                   "WallBonking", "GimbalMashing", "HeadlessModer", "LiPoSucking", "PayloadDropping", "Inverted"]
+                   "Immelmanning", "MattyFliping", "TrippySpinning", "OfficeWindowDiving", "BackwardDiving",
+                   "WallBonking", "GimbalMashing", "HeadlessModing", "LiPoSucking", "PayloadDropping", "Inverted",
+                   "AcroRipping", "Brushless", "Freestyle", "Chicane", "GapDiving", "PylonHugging", "CorkScrewing",
+                   "BandoFenceJumping", "DriftChasing", "WallRiding", "FlagShredding", "KissDevoted", "ButterFlight",
+                   "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlying", "BridgeDiving", "ToothpickToting"]
+    race_names = ["RipSesh", "SecondSplitter", "SlipStreamer", "Ghost", "Lightning", "Omnipotent", "Lord", "SprintGod"
+                  "King", "Almighty", "God", "SoulMan", "Inshallah", "Incorporeal", "Divinity", "Vampire", "StarLord"
+                  "SkyLord", "DemiGod", "Shyamalan", "DivineBeing", "SacrificialGoat", "Creator", "Beast", "Jeebus",
+                  "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "ArchNemesis", "Brute", "Satan",
+                  "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
+                  "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
+                  "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Superlative", "Maniac", "SimulatorGod",
+                  "Warrior", "Noob"]
 
     return drone_words[randrange(0, len(drone_words))] + race_names[randrange(0, len(race_names))] + 'FPV'
 
