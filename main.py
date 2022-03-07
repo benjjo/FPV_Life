@@ -12,17 +12,18 @@ def fpv_life():
                    "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n",
                    "Immelmanning", "MattyFliping", "TrippySpinning", "OfficeWindowDiving", "BackwardDiving",
                    "WallBonking", "GimbalMashing", "HeadlessModing", "LiPoSucking", "PayloadDropping", "Inverted",
-                   "AcroRipping", "Brushless", "Freestyle", "Chicane", "GapDiving", "PylonHugging", "CorkScrewing",
+                   "AcroRipping", "Brushless", "Freestyle", "Chicaning", "GapDiving", "PylonHugging", "CorkScrewing",
                    "BandoFenceJumping", "DriftChasing", "WallRiding", "FlagShredding", "KissDevoted", "ButterFlight",
-                   "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlying", "BridgeDiving", "ToothpickToting"]
-    race_names = ["RipSesh", "SecondSplitter", "SlipStreamer", "Ghost", "Lightning", "Omnipotent", "Lord", "SprintGod"
-                  "King", "Almighty", "God", "SoulMan", "Inshallah", "Incorporeal", "Divinity", "Vampire", "StarLord"
+                   "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlyer", "BridgeDiver", "Toothpick",
+                   "GateSmashing", "TowerSmashing", "LadderLooping", "RipSeshing", "SexySlalom"]
+    race_names = ["DroneTemplePilot", "SlipStreamer", "Ghost", "Thor", "SpaceCaptain", "Lord", "Mong", "Jedi",
+                  "King", "Almighty", "God", "SoulMan", "Inshallah", "Bardwell", "SpacePilot", "Vampire", "StarLord",
                   "SkyLord", "DemiGod", "Shyamalan", "DivineBeing", "SacrificialGoat", "Creator", "Beast", "Jeebus",
-                  "Father", "HolySpirit", "Goblin", "Yahweh", "MasterOf", "Holy", "ArchNemesis", "Brute", "Satan",
+                  "Daddy", "MamasBoy", "Goblin", "PantyDropper", "Master", "Gimp", "ArchNemesis", "Brute", "Satan",
                   "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
-                  "Succubus", "Gandhi", "Devil", "MalignantSpirit", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
+                  "Succubus", "Gandhi", "Devil", "MalignantSkyGod", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
                   "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Superlative", "Maniac", "SimulatorGod",
-                  "Warrior", "Noob"]
+                  "Warrior", "Noob", "SpaceCadet", "PocketRocket", "HellBoi", "DRL_Champion", "SimHero", "Samurai"]
 
     return drone_words[randrange(0, len(drone_words))] + race_names[randrange(0, len(race_names))] + 'FPV'
 
