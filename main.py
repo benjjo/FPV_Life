@@ -8,24 +8,27 @@ def fpv_life():
     This is probably the most useful thing on the internet and its here, free.
     You're welcome.
     """
-    drone_words = ["BarrelRolling", "YawSpinning", "RubiksCubed", "InvertedYawSpinning", "JuicyFlicking", "Stalling",
-                   "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n",
-                   "Immelmanning", "MattyFliping", "TrippySpinning", "OfficeWindowDiving", "BackwardDiving",
-                   "WallBonking", "GimbalMashing", "HeadlessModing", "LiPoSucking", "PayloadDropping", "Inverted",
-                   "AcroRipping", "Brushless", "Freestyle", "Chicaning", "GapDiving", "PylonHugging", "CorkScrewing",
-                   "BandoFenceJumping", "DriftChasing", "WallRiding", "FlagShredding", "KissDevoted", "ButterFlight",
-                   "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlyer", "BridgeDiver", "Toothpick",
-                   "GateSmashing", "TowerSmashing", "LadderLooping", "RipSeshing", "SexySlalom"]
-    race_names = ["DroneTemplePilot", "SlipStreamer", "Ghost", "Thor", "SpaceCaptain", "Lord", "Mong", "Jedi",
-                  "King", "Almighty", "God", "SoulMan", "Inshallah", "Bardwell", "SpacePilot", "Vampire", "StarLord",
-                  "SkyLord", "DemiGod", "Shyamalan", "DivineBeing", "SacrificialGoat", "Creator", "Beast", "Jeebus",
-                  "Daddy", "MamasBoy", "Goblin", "PantyDropper", "Master", "Gimp", "ArchNemesis", "Brute", "Satan",
-                  "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
-                  "Succubus", "Gandhi", "Devil", "MalignantSkyGod", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
-                  "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Superlative", "Maniac", "SimulatorGod",
-                  "Warrior", "Noob", "SpaceCadet", "PocketRocket", "HellBoi", "DRL_Champion", "SimHero", "Samurai"]
+    adjective = ["BarrelRolling", "YawSpinning", "RubiksCubed", "InvertedYawSpinning", "JuicyFlicking", "Stalling",
+                 "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n",
+                 "Immelmanning", "MattyFlipping", "TrippySpinning", "OfficeWindowDiving", "BackwardDiving",
+                 "WallBonking", "GimbalMashing", "HeadlessModing", "LiPoSucking", "PayloadDropping", "Inverted",
+                 "AcroRipping", "Brushless", "Freestyle", "Chicaning", "GapDiving", "PylonHugging", "CorkScrewing",
+                 "BandoFenceJumping", "DriftChasing", "WallRiding", "FlagShredding", "KissDevoted", "ButterFlight",
+                 "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlyer", "BridgeDiver", "Toothpick", "Jello",
+                 "GateSmashing", "TowerSmashing", "LadderLooping", "RipSeshing", "SexySlalom", "ThrottleTrimming",
+                 "MotorSmoking", "ESC_Burning", "LiPoKilling"]
+    noun = ["DroneTemplePilot", "SlipStreamer", "Ghost", "Thor", "SpaceCaptain", "Lord", "Mong", "Jedi",
+            "King", "Almighty", "God", "SoulMan", "Inshallah", "BardwellKnowItAll", "SpacePilot", "Vampire",
+            "SkyLord", "DemiGod", "Shyamalan", "DivineBeing", "SacrificialGoat", "Creator", "Beast", "Jeebus",
+            "Daddy", "MamasBoy", "Goblin", "PantyDropper", "Master", "Gimp", "ArchNemesis", "Brute", "Satan",
+            "Allah", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Power", "Jah", "Bohdi",
+            "Succubus", "Gandhi", "Devil", "MalignantSkyGod", "Idol", "Imp", "Incubus", "Hellion", "GodOfWar",
+            "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Superlative", "Maniac", "SimulatorGod",
+            "Warrior", "Noob", "SpaceCadet", "PocketRocket", "HellBoi", "DRL_Champion", "SimHero", "Samurai",
+            "AutoPilot", "PropBurner", "StarLord", "Spotter", "TBS_Fanboy", "DJI_Fanboy", "DigitalSnob",
+            "GeoFenceHacker", "ELRS_Fanboy"]
 
-    return drone_words[randrange(0, len(drone_words))] + race_names[randrange(0, len(race_names))] + 'FPV'
+    return adjective[randrange(0, len(adjective))] + noun[randrange(0, len(noun))] + 'FPV'
 
 
 def main():
