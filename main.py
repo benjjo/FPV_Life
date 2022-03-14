@@ -10,20 +10,20 @@ def fpv_life():
     """
     adjective = ["BarrelRolling", "YawSpinning", "RubiksCubing", "InvertedYawSpinning", "JuicyFlicking", "Stalling",
                  "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n", "SIM-Racing",
-                 "Immelmanning", "MattyFlipping", "TrippySpinning", "OfficeDiving", "BackwardDiving", "StockFlying"
+                 "Immelmanning", "MattyFlipping", "TrippySpinning", "OfficeDiving", "BackwardDiving", "StockFlying",
                  "WallBonking", "GimbalMashing", "HeadlessModing", "LiPoSucking", "PayloadDropping", "Inverted",
                  "AcroRipping", "Brushless", "Freestyling", "Chicaning", "GapDiving", "PylonHugging", "CorkScrewing",
                  "BandoFenceJumping", "DriftChasing", "WallRiding", "FlagShredding", "KissDevoted", "ButterFlying",
                  "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlying", "BridgeDiving", "Toothpicked", "Jello",
                  "GateSmashing", "TowerSmashing", "LadderLooping", "RipSeshing", "SlalomSmashing", "ThrottleTrimming",
                  "MotorSmoking", "ESC-Burning", "LiPoKilling", "PowerHungry", "TrainChasing", "Overpowered"]
-    noun = ["DroneTemplePilot", "SlipStreamer", "Ghost", "Thor", "SpaceCaptain", "Lord", "Mong", "Jedi", "StarLord"
-            "King", "AlmightyDroneGod", "God", "BardwellKnowItAll", "SpacePilot", "StingyFanboy", "NurkFanboy"
-            "SkyLord", "DemiGod", "Shyamalan", "SacrificialGoat", "Beast", "Jeebus", "ELRS-Fanboy", "PID-Master"
+    noun = ["DroneTemplePilot", "SlipStreamer", "Ghost", "Thor", "SpaceCaptain", "Lord", "Mong", "Jedi", "StarLord",
+            "King", "AlmightyDroneGod", "God", "BardwellKnowItAll", "SpacePilot", "StingyFanboy", "NurkFanboy",
+            "SkyLord", "DemiGod", "Shyamalan", "SacrificialGoat", "Beast", "Jeebus", "ELRS-Fanboy", "PID-Master",
             "Daddy", "MamasBoy", "Goblin", "PantyDropper", "Master", "Gimp", "ArchNemesis", "Brute", "Satan",
-            "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Bohdi", "LineMaster", "GeoFenceHacker"
+            "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Bohdi", "LineMaster", "GeoFenceHacker",
             "Succubus", "Gandhi", "Devil", "MalignantSkyGod", "Idol", "Imp", "GodOfWar", "DJI-Fanboy", "DigitalSnob",
-            "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Maniac", "SimulatorGod", "Spotter", "TBS-Fanboy"
+            "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Maniac", "SimulatorGod", "Spotter", "TBS-Fanboy",
             "Warrior", "Noob", "SpaceCadet", "PocketRocket", "HellBoi", "DRL-Champion", "SimHero", "Samurai",
             "AutoPilot", "PropBurner", "ESC-Burner"]
 
