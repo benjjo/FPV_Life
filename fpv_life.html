@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function whats_my_name() {
+		var adjective=["BarrelRolling", "YawSpinning", "RubiksCubing", "InvertedYawSpinning", "JuicyFlicking", "Stalling", "ThrowBacking", "VannyRolling", "KnifeEdging", "PowerLooping", "Orbiting", "Split-S'n", "SIM-Racing", "Immelmanning", "MattyFlipping", "TrippySpinning",	"OfficeDiving", "BackwardDiving", "StockFlying", "WallBonking", "GimbalMashing", "HeadlessModing", "LiPoSucking", "PayloadDropping", "Inverted", "AcroRipping", "Brushless", "Freestyling", "Chicaning", "GapDiving", "PylonHugging", "CorkScrewing", "BandoFenceJumping", "DriftChasing", "WallRiding", "FlagShredding", "KissDevoted", "ButterFlying", "OldSchool", "BetaFlightLoving", "WhoopKing", "StockFlying", "BridgeDiving", "Toothpicked", "Jello", "GateSmashing", "TowerSmashing", "LadderLooping", "RipSeshing", "SlalomSmashing", "ThrottleTrimming", "MotorSmoking", "ESC-Burning", "LiPoKilling", "PowerHungry", "TrainChasing", "Overpowered"];
+		var noun=["DroneTemplePilot", "SlipStreamer", "Ghost", "Thor", "SpaceCaptain", "Lord", "Mong", "Jedi", "StarLord", "King", "AlmightyDroneGod", "God", "BardwellKnowItAll", "SpacePilot", "StingyFanboy", "NurkFanboy", "SkyLord", "DemiGod", "Shyamalan", "SacrificialGoat", "Beast", "Jeebus", "ELRS-Fanboy", "PID-Master", "Daddy", "MamasBoy", "Goblin", "PantyDropper", "Master", "Gimp", "ArchNemesis", "Brute", "Satan", "Fiend", "MetaGod", "Deity", "Monster", "Villain", "Demon", "Bohdi", "LineMaster", "GeoFenceHacker", "Succubus", "Gandhi", "Devil", "MalignantSkyGod", "Idol", "Imp", "GodOfWar", "DJI-Fanboy", "DigitalSnob", "WarLord", "KingKong", "MoFo", "BossMan", "Captain", "Maniac", "SimulatorGod", "Spotter", "TBS-Fanboy", "Warrior", "Noob", "SpaceCadet", "PocketRocket", "HellBoi", "DRL-Champion", "SimHero", "Samurai", "AutoPilot", "PropBurner", "ESC-Burner"];
+		const name1 = adjective[Math.floor(Math.random() * adjective.length)];
+		const name2 = noun[Math.floor(Math.random() * noun.length)];
+		yourname = name1.concat(name2).concat('FPV')
+		document.getElementById("fpv_handle").innerHTML = yourname;
+	}
+</script>
+</head>
+<body>
+	<h2>FPV Pro-Race Handle</h2>
+	<p id="fpv_handle">At the core of your being there exists an FPV racer.</p>
+	<button type="button" onclick="whats_my_name()">Who are you?</button>
+</body>
+</html>
